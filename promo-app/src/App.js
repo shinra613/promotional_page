@@ -60,7 +60,9 @@ function App() {
               <p>- snowboarding classes</p>
               <p>- Music Festival</p>
               <p>- Complimentory Food</p>
+              
               </div>
+              <div class="card-button">Subscribe</div>  
 
             </div>
 
@@ -73,9 +75,10 @@ function App() {
               <div class="card-content">
               <p>- Stay at the heart of forest</p>
               <p>- Guided forest exploration</p>
-              <p>- Complimentory Food</p>
+                <p>- Complimentory Food</p>
+               
               </div>
-
+              <div class="card-button">Subscribe</div>  
             </div>
 
           </div>
@@ -88,9 +91,10 @@ function App() {
               <p>- Stay at Hampi/Badami</p>
               <p>- Mountain Climbing</p>
               <p>- Cave exploration</p>
-              <p>- Complimentory Food</p>
+                <p>- Complimentory Food</p>
+               
               </div>
-
+              <div class="card-button">Subscribe</div>  
             </div>
 
          </div>

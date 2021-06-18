@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
 .App {
   text-align: center;
   background-color: #F2EDD7;
   max-width: 1200px;
   margin: auto;
-  
+  background: #ED4264;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .App-logo {
@@ -47,6 +51,7 @@
 .menu{
   width: 100%;
   padding-top: 10px;
+  
 }
 .menu-container{
  float: right;
@@ -101,6 +106,7 @@
 
 .home-intro {
   margin: 20% 27%;
+  
 }
 .home-title{
   font-family: 'Ultra', serif;
@@ -160,8 +166,14 @@
 .plan-card{
   width:300px;
   margin:auto;
+  background-color: #F38C8A;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   border-radius:2rem;
+  height: 770px;
+}
+.plan-card:hover{
+  width:320px;
+  height: 780px;
 }
 
 .card-image{
@@ -176,8 +188,24 @@
 }
 .card-content{
   width: 60%;
+  height: 150px;
   margin:auto;
   font-family: 'Roboto';
   text-align: left;
-  padding-bottom: 30px;
+  
+}
+
+.card-button{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 40px;
+  border-radius:2rem ;
+  font-family: 'Roboto';
+  padding-top: 15px;
+  margin-bottom: 15px;
+  background: rgb(242,239,215);
+ 
+ 
 }
