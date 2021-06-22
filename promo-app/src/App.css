@@ -6,6 +6,7 @@
   text-align: center;
   background-color: #F2EDD7;
   max-width: 1200px;
+  height: 100vh;
   margin: auto;
   background: #ED4264;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
@@ -51,14 +52,15 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
 .menu{
   width: 100%;
   padding-top: 10px;
-  
+  margin-bottom: 100px;
+  text-decoration: none !important;
 }
 .menu-container{
  float: right;
  
 }
 .menu-opt{
-  text-decoration: none;
+  text-decoration: inherit;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -69,8 +71,10 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
 /* -------------------home----------------- */
 
 .home{
+  
   display: flex;
   height: 700px;
+  width: 100%;
 }
 .home-img{
   width: 500px;
@@ -105,13 +109,14 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
 }
 
 .home-intro {
-  margin: 20% 27%;
+  padding: 17% 13%;
   
 }
 .home-title{
   font-family: 'Ultra', serif;
   font-size: 50px;
   width: 500px;
+  
 }
 .home-quoOne{
   font-family: 'Lora', serif;
@@ -130,16 +135,26 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
 
 .services{
   
-  height: 300px;
+  height: 400px;
+ 
+  width: 90%;
+  margin: auto;
 }
 
 .serve-wrapper{
+  background: rgba(122, 161, 123, 0.3);
   display: flex;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 .serv-list{
   width: 100%;
   margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.serv-icons{
+  width:80px;
 }
 
 .serv-title{
@@ -173,13 +188,17 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
 }
 .plan-card:hover{
   width:320px;
-  height: 780px;
+  
 }
 
 .card-image{
   width:100%;
   height: 400px;
   border-radius:2rem 2rem 0 0;
+}
+
+.card-image:hover{
+  height: 450px;
 }
 
 .card-title{
