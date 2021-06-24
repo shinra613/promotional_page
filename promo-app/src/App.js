@@ -4,6 +4,7 @@ import './App.css';
 import PromoHome from './promohome';
 import PromoPlans from './promoplans';
 import PromoLocations from './locations';
+import Footer from './footer';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
@@ -38,7 +39,7 @@ function App() {
 
       {routes}
       
-      
+      <Footer />
       
     </div>
   );

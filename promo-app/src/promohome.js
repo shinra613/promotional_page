@@ -1,4 +1,53 @@
 import Menu from './menu';
+import { Carousel } from '3d-react-carousal';
+
+let rando = {
+  one: "https://picsum.photos/800/301/?random",
+  two: "https://picsum.photos/800/301/?random",
+  three: "https://picsum.photos/800/301/?random"
+}
+
+let slides = [
+  <div className='carousel-card one'>
+
+<div class="testi-wrapper">
+      
+      <img class="testi-img" src="/images/pop1.jpeg" />
+    <div class="testi-text">
+    <h1>"Place where I found my self again"</h1>
+    </div>
+      
+    
+    </div>
+     
+        
+  </div>,
+  <div  className='carousel-card two'>
+
+ <div class="testi-wrapper">
+      
+      <img class="testi-img" src="/images/pop2.jpg" />
+    <div class="testi-text">
+    <h1>"These people have become my second family"</h1>
+    </div>
+      
+    
+    </div>
+ 
+  </div>,
+  <div className='carousel-card three' >
+    <div class="testi-wrapper">
+      
+      <img class="testi-img" src="/images/pop3.jpg" />
+    <div class="testi-text">
+    <h1>"Best place to take brake from the urban lifestyle"</h1>
+    </div>
+      
+    
+    </div>
+   
+  
+</div> ];
 
 
 const PromoHome = () => (
@@ -41,7 +90,15 @@ const PromoHome = () => (
             <p class="serv-title">Campingo has partned with NIC insurancy company. So, all your luggages will be safe and insured.</p>
           </div>
         </div>
-      </div>
+    </div>
+    <div className="testimonial" >
+    <h1 class="home-quoOne" >"Listen to what our Customers have to say"</h1>
+      <Carousel slides={slides} autoplay={true} interval={6000} />
+      
+      
+
+    </div>
+   
     </div>
 );
   

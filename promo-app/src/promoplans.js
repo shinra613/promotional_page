@@ -1,5 +1,6 @@
 import Menu from './menu';
 
+
 const PromoPlans = () => (
     <div>
        <Menu />

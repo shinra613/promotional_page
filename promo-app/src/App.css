@@ -2,12 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
-.App {
-  text-align: center;
-  background-color: #F2EDD7;
+body{
+  
+  width:100%;
   max-width: 1200px;
   height: 100vh;
   margin: auto;
+  
+}
+.App {
+  text-align: center;
+  background-color: #F2EDD7;
+ 
   background: #ED4264;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -73,7 +79,7 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
 .home{
   
   display: flex;
-  height: 700px;
+ 
   width: 100%;
 }
 .home-img{
@@ -108,8 +114,13 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
   bottom: 440px;
 }
 
+.image-wrapper{
+  height: 700px;
+}
+
 .home-intro {
-  padding: 17% 13%;
+  padding: 7% 13% 5%;
+  height: 700px;
   
 }
 .home-title{
@@ -135,8 +146,6 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
 
 .services{
   
-  height: 400px;
- 
   width: 90%;
   margin: auto;
 }
@@ -227,4 +236,76 @@ background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, F
   background: rgb(242,239,215);
  
  
+}
+
+/* ----------------------testimonial-------------------------- */
+
+.testimonial{
+  margin: 100px 0;
+}
+
+.carousel-card{
+  width: 760px;
+  height: 250px;
+  color: white;
+  font-family: 'Roboto';
+  margin: auto;
+  background-image: url('https://picsum.photos/800/301/?random');
+  position: relative;
+  
+}
+
+.testi-wrapper{
+  
+  position: absolute;
+  padding-top:10px;
+  backdrop-filter: blur(3px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
+
+.testi-img{
+  border-radius: 50%;
+  width: 120px;
+ 
+}
+
+
+.testi-text{
+  width: 70%;
+  background: rgba(213, 218, 213, 0.3);
+  margin:auto;
+ 
+}
+
+.testi-text>h1{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4);
+  
+}
+
+
+
+
+
+
+
+
+/* ----------------------footer-------------------------- */
+
+.footer{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.footer>a{
+  margin:0 40px;
+  font-family: 'Roboto';
 }
