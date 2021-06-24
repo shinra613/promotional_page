@@ -54,8 +54,11 @@ const PromoHome = () => (
   
     <div>
      <Menu/>
-      <div class="home" id="home" >
-        <div class="image-wrapper">
+    <div class="home" id="home" >
+      
+      <div className="main-intro">
+
+      <div class="image-wrapper">
           <img class="home-img geto" src='/images/geto.jpg' alt='bala' />
           <img class="home-img bill" src='/images/bill.jpg' alt='bala'/>
           <img class="home-img hill" src='/images/hill.jpg' alt='bala'/>
@@ -69,8 +72,11 @@ const PromoHome = () => (
           <p class="home-quoTwo">-Aiswarya PS</p>
             
         </div>
+        
+       </div>
+       
   
-      </div>
+      
       <div class="services" id="services" >
         <h1 class="home-quoOne" >"Why Choose our service ?"</h1>
         <div class="serve-wrapper">
@@ -94,7 +100,7 @@ const PromoHome = () => (
     <div className="testimonial" >
     <h1 class="home-quoOne" >"Listen to what our Customers have to say"</h1>
       <Carousel slides={slides} autoplay={true} interval={6000} />
-      
+      </div>
       
 
     </div>

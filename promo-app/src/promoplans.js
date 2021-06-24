@@ -2,10 +2,10 @@ import Menu from './menu';
 
 
 const PromoPlans = () => (
-    <div>
+    <div class="plans">
        <Menu />
    
-     <div class="plans" id="plans" >
+     <div  id="plans" >
        <h1 class="home-quoOne" >Our Holiday Packages</h1>
        <div class="plan-wrapper">
          <div class="plan-list">

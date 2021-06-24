@@ -5,6 +5,8 @@ const PromoLocations = () => (
   
     <div>
         <Menu />
+        <div className="location">
+        </div>
     </div>
 );
 
